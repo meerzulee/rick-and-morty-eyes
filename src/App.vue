@@ -39,13 +39,13 @@ export default {
 <template>
   <div>
     <main>
-      <img src="morty.png" id="anchor" :style="{filter: `hue-rotate(${degr+90}deg)`}">
+      <img src="./assets/morty.png" id="anchor" :style="{filter: `hue-rotate(${degr+90}deg)`}">
       <div>{{degr}}</div>
       <div id="eyes">
-        <img src="eye.png" class="eyes" :style="{top: '130px', right: '34px', transform: `rotate(${degr+90}deg)`}">
-        <img src="eye.png" class="eyes" :style="{top: '-167px', right: '-167px', transform: `rotate(${degr+90}deg)` }">
-        <img src="eye.png" class="eyes" :style="{top: '-173px', right: '-265px', transform: `rotate(${degr+90}deg)` }">
-        <img src="eye.png" class="eyes" :style="{top: '150px',right: '174px', transform: `rotate(${degr+90}deg)`}">
+        <img src="./assets/eye.png" class="eyes" :style="{top: '130px', right: '34px', transform: `rotate(${degr+90}deg)`}">
+        <img src="./assets/eye.png" class="eyes" :style="{top: '-167px', right: '-167px', transform: `rotate(${degr+90}deg)` }">
+        <img src="./assets/eye.png" class="eyes" :style="{top: '-173px', right: '-265px', transform: `rotate(${degr+90}deg)` }">
+        <img src="./assets/eye.png" class="eyes" :style="{top: '150px',right: '174px', transform: `rotate(${degr+90}deg)`}">
 
       </div>
     </main>
