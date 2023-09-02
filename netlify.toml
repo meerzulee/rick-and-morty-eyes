@@ -1,0 +1,5 @@
+
+[[redirects]]
+  from = "/freshfund/*"
+  to = "https://freshfund.netlify.app/:splat"
+  status = 200
