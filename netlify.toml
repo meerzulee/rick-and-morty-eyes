@@ -1,5 +1,5 @@
 
 [[redirects]]
   from = "/freshfund/*"
-  to = "https://couriermedia-freshfund.netlify.app/:splat"
+  to = "https://couriermedia-freshfund.netlify.app/freshfund/:splat"
   status = 200
